@@ -310,7 +310,6 @@ pub fn record_sent_metrics(resp: &ResponsePackage, connection_manager: &Arc<Conn
             .inc(),
 
         _ => {},
-        
     }
 }
 
